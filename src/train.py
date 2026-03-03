@@ -78,6 +78,6 @@ def train_model():
         if val_accuracy > best_val_accuracy:
             best_val_accuracy = val_accuracy
             torch.save(model.state_dict(), MODEL_PATH)
-            print("model saved!")
+            print("model saved")
 
     print("\nTraining Complete!")

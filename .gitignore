@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.so
+.env
+.ipynb_checkpoints/
+data/
+models/
